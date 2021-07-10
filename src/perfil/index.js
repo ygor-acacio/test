@@ -19,16 +19,6 @@ const Pesquisar = useCallback(()=>{
       })
 },[student])
 
-//   useEffect(() => {
-//   database.collection('user'). onSnapshot((query) => {
-//     const list = [];
-//     query.forEach((doc) => {
-//       list.push(doc.data())
-//     })
-//     setUser(list);
-//   })
-// }, [])
-
   return(
     <S.Container>
       <View>
@@ -66,7 +56,3 @@ const Pesquisar = useCallback(()=>{
     </S.Container>
   )
 } 
-
-// {user.map((user) => {
-//   return <Text>{user.name}</Text>
-// })}
